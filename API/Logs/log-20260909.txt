@@ -1,0 +1,659 @@
+2026-09-09 14:44:04.521 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-09-09 14:44:05.797 +07:00 [DBG] Hosting starting
+2026-09-09 14:44:05.844 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-09 14:44:05.862 +07:00 [DBG] Reading data from file 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys\key-440e4f70-7858-4e27-9533-e63e9d7ad2ec.xml'.
+2026-09-09 14:44:05.891 +07:00 [DBG] Found key {440e4f70-7858-4e27-9533-e63e9d7ad2ec}.
+2026-09-09 14:44:05.912 +07:00 [DBG] Considering key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} with expiration date 2026-12-07 11:29:14Z as default key.
+2026-09-09 14:44:05.917 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 14:44:05.921 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-09-09 14:44:05.924 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 14:44:05.932 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-09-09 14:44:05.934 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-09-09 14:44:05.936 +07:00 [DBG] Using key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} as the default key.
+2026-09-09 14:44:05.937 +07:00 [DBG] Key ring with default key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} was loaded during application startup.
+2026-09-09 14:44:05.949 +07:00 [DBG] Middleware loaded
+2026-09-09 14:44:05.952 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16491 B).
+2026-09-09 14:44:05.954 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-09-09 14:44:06.099 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-09-09 14:44:06.104 +07:00 [DBG] Loaded hosting startup assembly API
+2026-09-09 14:44:06.104 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-09-09 14:44:06.105 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-09-09 14:44:06.105 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-09-09 14:44:06.181 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/index.html - null null
+2026-09-09 14:44:06.256 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-09 14:44:06.257 +07:00 [INF] Hosting environment: Development
+2026-09-09 14:44:06.257 +07:00 [INF] Content root path: D:\C#\BanOto\API
+2026-09-09 14:44:06.257 +07:00 [DBG] Hosting started
+2026-09-09 14:44:06.937 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-09-09 14:44:07.036 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-09-09 14:44:07.039 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-09-09 14:44:07.122 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-09-09 14:44:07.122 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-09-09 14:44:07.291 +07:00 [DBG] Connection ID "18374686506246733825" disconnecting.
+2026-09-09 14:44:07.291 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_vs/browserLink - null null
+2026-09-09 14:44:07.292 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/index.html - 200 null text/html;charset=utf-8 1112.4335ms
+2026-09-09 14:44:07.295 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-09 14:44:07.327 +07:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-09-09 14:44:07.354 +07:00 [DBG] Connection ID "18302628895028936705" disconnecting.
+2026-09-09 14:44:07.355 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 58.767ms
+2026-09-09 14:44:07.551 +07:00 [DBG] Connection ID "18230571300991008769" disconnecting.
+2026-09-09 14:44:07.554 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_vs/browserLink - 200 null text/javascript; charset=UTF-8 263.0104ms
+2026-09-09 14:44:07.603 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - null null
+2026-09-09 14:44:07.719 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.3344ms
+2026-09-09 14:44:16.920 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44334/api/Customer/create-item - application/json 65
+2026-09-09 14:44:16.924 +07:00 [DBG] POST requests are not supported
+2026-09-09 14:44:16.975 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Customer/create-item'
+2026-09-09 14:44:16.985 +07:00 [DBG] Endpoint 'API.Controllers.CustomerController.CreateItem (API)' with route pattern 'api/Customer/create-item' is valid for the request path '/api/Customer/create-item'
+2026-09-09 14:44:16.987 +07:00 [DBG] Request matched endpoint 'API.Controllers.CustomerController.CreateItem (API)'
+2026-09-09 14:44:16.991 +07:00 [DBG] The request has an origin header: 'https://localhost:44334'.
+2026-09-09 14:44:16.991 +07:00 [INF] CORS policy execution successful.
+2026-09-09 14:44:18.947 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-09-09 14:44:18.951 +07:00 [INF] Executing endpoint 'API.Controllers.CustomerController.CreateItem (API)'
+2026-09-09 14:44:18.994 +07:00 [INF] Route matched with {action = "CreateItem", controller = "Customer"}. Executing controller action with signature Model.CustomerModel CreateItem(Model.CustomerModel) on controller API.Controllers.CustomerController (API).
+2026-09-09 14:44:18.998 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-09-09 14:44:18.998 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-09-09 14:44:18.999 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-09-09 14:44:18.999 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-09-09 14:44:19.000 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-09-09 14:44:19.003 +07:00 [DBG] Executing controller factory for controller API.Controllers.CustomerController (API)
+2026-09-09 14:44:19.005 +07:00 [DBG] Executed controller factory for controller API.Controllers.CustomerController (API)
+2026-09-09 14:44:19.013 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.CustomerModel' ...
+2026-09-09 14:44:19.017 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.CustomerModel' using the name '' in request data ...
+2026-09-09 14:44:19.019 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-09-09 14:44:19.037 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'Model.CustomerModel'
+2026-09-09 14:44:19.038 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.CustomerModel'.
+2026-09-09 14:44:19.038 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.CustomerModel'.
+2026-09-09 14:44:19.038 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Model.CustomerModel' ...
+2026-09-09 14:44:19.050 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Model.CustomerModel'.
+2026-09-09 14:45:07.760 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-09-09 14:45:07.819 +07:00 [DBG] Hosting starting
+2026-09-09 14:45:07.833 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-09 14:45:07.839 +07:00 [DBG] Reading data from file 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys\key-440e4f70-7858-4e27-9533-e63e9d7ad2ec.xml'.
+2026-09-09 14:45:07.847 +07:00 [DBG] Found key {440e4f70-7858-4e27-9533-e63e9d7ad2ec}.
+2026-09-09 14:45:07.851 +07:00 [DBG] Considering key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} with expiration date 2026-12-07 11:29:14Z as default key.
+2026-09-09 14:45:07.852 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 14:45:07.854 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-09-09 14:45:07.855 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 14:45:07.857 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-09-09 14:45:07.858 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-09-09 14:45:07.858 +07:00 [DBG] Using key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} as the default key.
+2026-09-09 14:45:07.859 +07:00 [DBG] Key ring with default key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} was loaded during application startup.
+2026-09-09 14:45:07.862 +07:00 [DBG] Middleware loaded
+2026-09-09 14:45:07.863 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16491 B).
+2026-09-09 14:45:07.864 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-09-09 14:45:07.909 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-09-09 14:45:07.911 +07:00 [DBG] Loaded hosting startup assembly API
+2026-09-09 14:45:07.911 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-09-09 14:45:07.911 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-09-09 14:45:07.911 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-09-09 14:45:07.945 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/index.html - null null
+2026-09-09 14:45:07.976 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-09 14:45:07.976 +07:00 [INF] Hosting environment: Development
+2026-09-09 14:45:07.976 +07:00 [INF] Content root path: D:\C#\BanOto\API
+2026-09-09 14:45:07.976 +07:00 [DBG] Hosting started
+2026-09-09 14:45:08.035 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-09-09 14:45:08.067 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-09-09 14:45:08.068 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-09-09 14:45:08.087 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-09-09 14:45:08.087 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-09-09 14:45:08.104 +07:00 [DBG] Connection ID "18302628916503773185" disconnecting.
+2026-09-09 14:45:08.105 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-09 14:45:08.091 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/index.html - 200 null text/html;charset=utf-8 149.2312ms
+2026-09-09 14:45:08.109 +07:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-09-09 14:45:08.109 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_vs/browserLink - null null
+2026-09-09 14:45:08.109 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 3.6778ms
+2026-09-09 14:45:08.131 +07:00 [DBG] Connection ID "18086456112915152897" disconnecting.
+2026-09-09 14:45:08.134 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.8639ms
+2026-09-09 14:45:08.159 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - null null
+2026-09-09 14:45:08.170 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.7341ms
+2026-09-09 14:45:30.641 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44334/api/Customer/create-item - application/json 65
+2026-09-09 14:45:30.647 +07:00 [DBG] POST requests are not supported
+2026-09-09 14:45:30.698 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Customer/create-item'
+2026-09-09 14:45:30.703 +07:00 [DBG] Endpoint 'API.Controllers.CustomerController.CreateItem (API)' with route pattern 'api/Customer/create-item' is valid for the request path '/api/Customer/create-item'
+2026-09-09 14:45:30.705 +07:00 [DBG] Request matched endpoint 'API.Controllers.CustomerController.CreateItem (API)'
+2026-09-09 14:45:30.707 +07:00 [DBG] The request has an origin header: 'https://localhost:44334'.
+2026-09-09 14:45:30.708 +07:00 [INF] CORS policy execution successful.
+2026-09-09 14:45:30.789 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-09-09 14:45:30.792 +07:00 [INF] Executing endpoint 'API.Controllers.CustomerController.CreateItem (API)'
+2026-09-09 14:45:30.822 +07:00 [INF] Route matched with {action = "CreateItem", controller = "Customer"}. Executing controller action with signature Model.CustomerModel CreateItem(Model.CustomerModel) on controller API.Controllers.CustomerController (API).
+2026-09-09 14:45:30.824 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-09-09 14:45:30.825 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-09-09 14:45:30.825 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-09-09 14:45:30.826 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-09-09 14:45:30.826 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-09-09 14:45:30.829 +07:00 [DBG] Executing controller factory for controller API.Controllers.CustomerController (API)
+2026-09-09 14:45:30.830 +07:00 [DBG] Executed controller factory for controller API.Controllers.CustomerController (API)
+2026-09-09 14:45:30.836 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.CustomerModel' ...
+2026-09-09 14:45:30.841 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.CustomerModel' using the name '' in request data ...
+2026-09-09 14:45:30.842 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-09-09 14:45:30.859 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'Model.CustomerModel'
+2026-09-09 14:45:30.860 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.CustomerModel'.
+2026-09-09 14:45:30.861 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.CustomerModel'.
+2026-09-09 14:45:30.862 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Model.CustomerModel' ...
+2026-09-09 14:45:30.875 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Model.CustomerModel'.
+2026-09-09 14:45:44.610 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44334/api/HoaDon/create-hoa-don - application/json 270
+2026-09-09 14:45:44.611 +07:00 [DBG] POST requests are not supported
+2026-09-09 14:45:44.615 +07:00 [DBG] 1 candidate(s) found for the request path '/api/HoaDon/create-hoa-don'
+2026-09-09 14:45:44.616 +07:00 [DBG] Endpoint 'API.Controllers.HoaDonController.CreateItem (API)' with route pattern 'api/HoaDon/create-hoa-don' is valid for the request path '/api/HoaDon/create-hoa-don'
+2026-09-09 14:45:44.617 +07:00 [DBG] Request matched endpoint 'API.Controllers.HoaDonController.CreateItem (API)'
+2026-09-09 14:45:44.621 +07:00 [DBG] The request has an origin header: 'https://localhost:44334'.
+2026-09-09 14:45:44.621 +07:00 [INF] CORS policy execution successful.
+2026-09-09 14:45:44.624 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-09-09 14:45:44.625 +07:00 [INF] Executing endpoint 'API.Controllers.HoaDonController.CreateItem (API)'
+2026-09-09 14:45:44.657 +07:00 [INF] Route matched with {action = "CreateItem", controller = "HoaDon"}. Executing controller action with signature Model.HoaDonModel CreateItem(Model.HoaDonModel) on controller API.Controllers.HoaDonController (API).
+2026-09-09 14:45:44.658 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-09-09 14:45:44.658 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-09-09 14:45:44.658 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-09-09 14:45:44.658 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-09-09 14:45:44.659 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-09-09 14:45:44.659 +07:00 [DBG] Executing controller factory for controller API.Controllers.HoaDonController (API)
+2026-09-09 14:45:44.660 +07:00 [DBG] Executed controller factory for controller API.Controllers.HoaDonController (API)
+2026-09-09 14:45:44.661 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.HoaDonModel' ...
+2026-09-09 14:45:44.661 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.HoaDonModel' using the name '' in request data ...
+2026-09-09 14:45:44.661 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-09-09 14:45:44.673 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'Model.HoaDonModel'
+2026-09-09 14:45:44.673 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.HoaDonModel'.
+2026-09-09 14:45:44.673 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.HoaDonModel'.
+2026-09-09 14:45:44.673 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Model.HoaDonModel' ...
+2026-09-09 14:45:44.678 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Model.HoaDonModel'.
+2026-09-09 14:47:47.321 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-09-09 14:47:47.386 +07:00 [DBG] Hosting starting
+2026-09-09 14:47:47.397 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-09 14:47:47.402 +07:00 [DBG] Reading data from file 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys\key-440e4f70-7858-4e27-9533-e63e9d7ad2ec.xml'.
+2026-09-09 14:47:47.409 +07:00 [DBG] Found key {440e4f70-7858-4e27-9533-e63e9d7ad2ec}.
+2026-09-09 14:47:47.415 +07:00 [DBG] Considering key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} with expiration date 2026-12-07 11:29:14Z as default key.
+2026-09-09 14:47:47.416 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 14:47:47.417 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-09-09 14:47:47.418 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 14:47:47.420 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-09-09 14:47:47.421 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-09-09 14:47:47.422 +07:00 [DBG] Using key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} as the default key.
+2026-09-09 14:47:47.422 +07:00 [DBG] Key ring with default key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} was loaded during application startup.
+2026-09-09 14:47:47.425 +07:00 [DBG] Middleware loaded
+2026-09-09 14:47:47.426 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16491 B).
+2026-09-09 14:47:47.427 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-09-09 14:47:47.465 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-09-09 14:47:47.467 +07:00 [DBG] Loaded hosting startup assembly API
+2026-09-09 14:47:47.467 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-09-09 14:47:47.467 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-09-09 14:47:47.467 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-09-09 14:47:47.490 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/index.html - null null
+2026-09-09 14:47:47.512 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-09 14:47:47.513 +07:00 [INF] Hosting environment: Development
+2026-09-09 14:47:47.513 +07:00 [INF] Content root path: D:\C#\BanOto\API
+2026-09-09 14:47:47.513 +07:00 [DBG] Hosting started
+2026-09-09 14:47:47.547 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-09-09 14:47:47.583 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-09-09 14:47:47.584 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-09-09 14:47:47.604 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-09-09 14:47:47.605 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-09-09 14:47:47.608 +07:00 [DBG] Connection ID "18374686489066864645" disconnecting.
+2026-09-09 14:47:47.608 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/index.html - 200 null text/html;charset=utf-8 120.5203ms
+2026-09-09 14:47:47.612 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-09 14:47:47.614 +07:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-09-09 14:47:47.615 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 2.4114ms
+2026-09-09 14:47:47.621 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_vs/browserLink - null null
+2026-09-09 14:47:47.642 +07:00 [DBG] Connection ID "18374686489066864647" disconnecting.
+2026-09-09 14:47:47.647 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.6697ms
+2026-09-09 14:47:47.669 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - null null
+2026-09-09 14:47:47.684 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.5652ms
+2026-09-09 14:47:47.685 +07:00 [DBG] Connection ID "18374686501951766529" disconnecting.
+2026-09-09 14:47:52.277 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44334/api/Customer/create-item - application/json 65
+2026-09-09 14:47:52.282 +07:00 [DBG] POST requests are not supported
+2026-09-09 14:47:52.322 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Customer/create-item'
+2026-09-09 14:47:52.326 +07:00 [DBG] Endpoint 'API.Controllers.CustomerController.CreateItem (API)' with route pattern 'api/Customer/create-item' is valid for the request path '/api/Customer/create-item'
+2026-09-09 14:47:52.329 +07:00 [DBG] Request matched endpoint 'API.Controllers.CustomerController.CreateItem (API)'
+2026-09-09 14:47:52.332 +07:00 [DBG] The request has an origin header: 'https://localhost:44334'.
+2026-09-09 14:47:52.332 +07:00 [INF] CORS policy execution successful.
+2026-09-09 14:47:52.413 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-09-09 14:47:52.416 +07:00 [INF] Executing endpoint 'API.Controllers.CustomerController.CreateItem (API)'
+2026-09-09 14:47:52.447 +07:00 [INF] Route matched with {action = "CreateItem", controller = "Customer"}. Executing controller action with signature Model.CustomerModel CreateItem(Model.CustomerModel) on controller API.Controllers.CustomerController (API).
+2026-09-09 14:47:52.450 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-09-09 14:47:52.451 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-09-09 14:47:52.452 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-09-09 14:47:52.452 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-09-09 14:47:52.453 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-09-09 14:47:52.458 +07:00 [DBG] Executing controller factory for controller API.Controllers.CustomerController (API)
+2026-09-09 14:47:52.461 +07:00 [DBG] Executed controller factory for controller API.Controllers.CustomerController (API)
+2026-09-09 14:47:52.471 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.CustomerModel' ...
+2026-09-09 14:47:52.474 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.CustomerModel' using the name '' in request data ...
+2026-09-09 14:47:52.476 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-09-09 14:47:52.495 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'Model.CustomerModel'
+2026-09-09 14:47:52.496 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.CustomerModel'.
+2026-09-09 14:47:52.496 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.CustomerModel'.
+2026-09-09 14:47:52.497 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Model.CustomerModel' ...
+2026-09-09 14:47:52.507 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Model.CustomerModel'.
+2026-09-09 14:49:40.472 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-09-09 14:49:40.540 +07:00 [DBG] Hosting starting
+2026-09-09 14:49:40.553 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-09 14:49:40.557 +07:00 [DBG] Reading data from file 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys\key-440e4f70-7858-4e27-9533-e63e9d7ad2ec.xml'.
+2026-09-09 14:49:40.565 +07:00 [DBG] Found key {440e4f70-7858-4e27-9533-e63e9d7ad2ec}.
+2026-09-09 14:49:40.570 +07:00 [DBG] Considering key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} with expiration date 2026-12-07 11:29:14Z as default key.
+2026-09-09 14:49:40.571 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 14:49:40.572 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-09-09 14:49:40.573 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 14:49:40.576 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-09-09 14:49:40.576 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-09-09 14:49:40.577 +07:00 [DBG] Using key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} as the default key.
+2026-09-09 14:49:40.578 +07:00 [DBG] Key ring with default key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} was loaded during application startup.
+2026-09-09 14:49:40.581 +07:00 [DBG] Middleware loaded
+2026-09-09 14:49:40.581 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16491 B).
+2026-09-09 14:49:40.582 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-09-09 14:49:40.619 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-09-09 14:49:40.621 +07:00 [DBG] Loaded hosting startup assembly API
+2026-09-09 14:49:40.621 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-09-09 14:49:40.621 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-09-09 14:49:40.621 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-09-09 14:49:40.643 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/index.html - null null
+2026-09-09 14:49:40.666 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-09 14:49:40.666 +07:00 [INF] Hosting environment: Development
+2026-09-09 14:49:40.666 +07:00 [INF] Content root path: D:\C#\BanOto\API
+2026-09-09 14:49:40.666 +07:00 [DBG] Hosting started
+2026-09-09 14:49:40.700 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-09-09 14:49:40.731 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-09-09 14:49:40.732 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-09-09 14:49:40.750 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-09-09 14:49:40.751 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-09-09 14:49:40.758 +07:00 [DBG] Connection ID "18302628890733969409" disconnecting.
+2026-09-09 14:49:40.755 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/index.html - 200 null text/html;charset=utf-8 115.9118ms
+2026-09-09 14:49:40.769 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-09 14:49:40.773 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_vs/browserLink - null null
+2026-09-09 14:49:40.775 +07:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-09-09 14:49:40.776 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 6.2833ms
+2026-09-09 14:49:40.798 +07:00 [DBG] Connection ID "18302628903618871299" disconnecting.
+2026-09-09 14:49:40.799 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.3388ms
+2026-09-09 14:49:40.857 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - null null
+2026-09-09 14:49:40.867 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.4273ms
+2026-09-09 14:49:40.867 +07:00 [DBG] Connection ID "18374686506246733829" disconnecting.
+2026-09-09 14:50:02.025 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44334/api/HoaDon/create-hoa-don - application/json 270
+2026-09-09 14:50:02.029 +07:00 [DBG] POST requests are not supported
+2026-09-09 14:50:02.078 +07:00 [DBG] 1 candidate(s) found for the request path '/api/HoaDon/create-hoa-don'
+2026-09-09 14:50:02.083 +07:00 [DBG] Endpoint 'API.Controllers.HoaDonController.CreateItem (API)' with route pattern 'api/HoaDon/create-hoa-don' is valid for the request path '/api/HoaDon/create-hoa-don'
+2026-09-09 14:50:02.085 +07:00 [DBG] Request matched endpoint 'API.Controllers.HoaDonController.CreateItem (API)'
+2026-09-09 14:50:02.092 +07:00 [DBG] The request has an origin header: 'https://localhost:44334'.
+2026-09-09 14:50:02.093 +07:00 [INF] CORS policy execution successful.
+2026-09-09 14:50:04.372 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-09-09 14:50:04.375 +07:00 [INF] Executing endpoint 'API.Controllers.HoaDonController.CreateItem (API)'
+2026-09-09 14:50:04.406 +07:00 [INF] Route matched with {action = "CreateItem", controller = "HoaDon"}. Executing controller action with signature Model.HoaDonModel CreateItem(Model.HoaDonModel) on controller API.Controllers.HoaDonController (API).
+2026-09-09 14:50:04.407 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-09-09 14:50:04.408 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-09-09 14:50:04.409 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-09-09 14:50:04.409 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-09-09 14:50:04.409 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-09-09 14:50:04.412 +07:00 [DBG] Executing controller factory for controller API.Controllers.HoaDonController (API)
+2026-09-09 14:50:04.413 +07:00 [DBG] Executed controller factory for controller API.Controllers.HoaDonController (API)
+2026-09-09 14:50:04.422 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.HoaDonModel' ...
+2026-09-09 14:50:04.425 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.HoaDonModel' using the name '' in request data ...
+2026-09-09 14:50:04.426 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-09-09 14:50:04.457 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'Model.HoaDonModel'
+2026-09-09 14:50:04.458 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.HoaDonModel'.
+2026-09-09 14:50:04.458 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.HoaDonModel'.
+2026-09-09 14:50:04.459 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Model.HoaDonModel' ...
+2026-09-09 14:50:04.473 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Model.HoaDonModel'.
+2026-09-09 14:52:44.743 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-09-09 14:52:44.815 +07:00 [DBG] Hosting starting
+2026-09-09 14:52:44.832 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-09 14:52:44.842 +07:00 [DBG] Reading data from file 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys\key-440e4f70-7858-4e27-9533-e63e9d7ad2ec.xml'.
+2026-09-09 14:52:44.855 +07:00 [DBG] Found key {440e4f70-7858-4e27-9533-e63e9d7ad2ec}.
+2026-09-09 14:52:44.860 +07:00 [DBG] Considering key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} with expiration date 2026-12-07 11:29:14Z as default key.
+2026-09-09 14:52:44.864 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 14:52:44.865 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-09-09 14:52:44.866 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 14:52:44.869 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-09-09 14:52:44.870 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-09-09 14:52:44.871 +07:00 [DBG] Using key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} as the default key.
+2026-09-09 14:52:44.871 +07:00 [DBG] Key ring with default key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} was loaded during application startup.
+2026-09-09 14:52:44.875 +07:00 [DBG] Middleware loaded
+2026-09-09 14:52:44.876 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16491 B).
+2026-09-09 14:52:44.876 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-09-09 14:52:44.948 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-09-09 14:52:44.950 +07:00 [DBG] Loaded hosting startup assembly API
+2026-09-09 14:52:44.951 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-09-09 14:52:44.951 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-09-09 14:52:44.951 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-09-09 14:52:44.989 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/index.html - null null
+2026-09-09 14:52:45.003 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-09 14:52:45.003 +07:00 [INF] Hosting environment: Development
+2026-09-09 14:52:45.003 +07:00 [INF] Content root path: D:\C#\BanOto\API
+2026-09-09 14:52:45.003 +07:00 [DBG] Hosting started
+2026-09-09 14:52:45.055 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-09-09 14:52:45.093 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-09-09 14:52:45.094 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-09-09 14:52:45.113 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-09-09 14:52:45.114 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-09-09 14:52:45.117 +07:00 [DBG] Connection ID "18158513715543015425" disconnecting.
+2026-09-09 14:52:45.120 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-09 14:52:45.119 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/index.html - 200 null text/html;charset=utf-8 134.2076ms
+2026-09-09 14:52:45.120 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_vs/browserLink - null null
+2026-09-09 14:52:45.135 +07:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-09-09 14:52:45.136 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 15.448ms
+2026-09-09 14:52:45.160 +07:00 [DBG] Connection ID "18302628916503773189" disconnecting.
+2026-09-09 14:52:45.160 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.9385ms
+2026-09-09 14:52:45.257 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - null null
+2026-09-09 14:52:45.280 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.3416ms
+2026-09-09 14:52:50.881 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44334/api/HoaDon/create-hoa-don - application/json 270
+2026-09-09 14:52:50.885 +07:00 [DBG] POST requests are not supported
+2026-09-09 14:52:50.945 +07:00 [DBG] 1 candidate(s) found for the request path '/api/HoaDon/create-hoa-don'
+2026-09-09 14:52:50.950 +07:00 [DBG] Endpoint 'API.Controllers.HoaDonController.CreateItem (API)' with route pattern 'api/HoaDon/create-hoa-don' is valid for the request path '/api/HoaDon/create-hoa-don'
+2026-09-09 14:52:50.952 +07:00 [DBG] Request matched endpoint 'API.Controllers.HoaDonController.CreateItem (API)'
+2026-09-09 14:52:50.955 +07:00 [DBG] The request has an origin header: 'https://localhost:44334'.
+2026-09-09 14:52:50.955 +07:00 [INF] CORS policy execution successful.
+2026-09-09 14:52:51.049 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-09-09 14:52:51.053 +07:00 [INF] Executing endpoint 'API.Controllers.HoaDonController.CreateItem (API)'
+2026-09-09 14:52:51.091 +07:00 [INF] Route matched with {action = "CreateItem", controller = "HoaDon"}. Executing controller action with signature Model.HoaDonModel CreateItem(Model.HoaDonModel) on controller API.Controllers.HoaDonController (API).
+2026-09-09 14:52:51.094 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-09-09 14:52:51.094 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-09-09 14:52:51.095 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-09-09 14:52:51.095 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-09-09 14:52:51.095 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-09-09 14:52:51.098 +07:00 [DBG] Executing controller factory for controller API.Controllers.HoaDonController (API)
+2026-09-09 14:52:51.099 +07:00 [DBG] Executed controller factory for controller API.Controllers.HoaDonController (API)
+2026-09-09 14:52:51.106 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.HoaDonModel' ...
+2026-09-09 14:52:51.116 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.HoaDonModel' using the name '' in request data ...
+2026-09-09 14:52:51.120 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-09-09 14:52:51.146 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'Model.HoaDonModel'
+2026-09-09 14:52:51.147 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.HoaDonModel'.
+2026-09-09 14:52:51.147 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.HoaDonModel'.
+2026-09-09 14:52:51.147 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Model.HoaDonModel' ...
+2026-09-09 14:52:51.163 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Model.HoaDonModel'.
+2026-09-09 14:55:00.192 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-09-09 14:55:00.260 +07:00 [DBG] Hosting starting
+2026-09-09 14:55:00.271 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-09 14:55:00.278 +07:00 [DBG] Reading data from file 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys\key-440e4f70-7858-4e27-9533-e63e9d7ad2ec.xml'.
+2026-09-09 14:55:00.285 +07:00 [DBG] Found key {440e4f70-7858-4e27-9533-e63e9d7ad2ec}.
+2026-09-09 14:55:00.292 +07:00 [DBG] Considering key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} with expiration date 2026-12-07 11:29:14Z as default key.
+2026-09-09 14:55:00.293 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 14:55:00.294 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-09-09 14:55:00.295 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 14:55:00.298 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-09-09 14:55:00.298 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-09-09 14:55:00.299 +07:00 [DBG] Using key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} as the default key.
+2026-09-09 14:55:00.299 +07:00 [DBG] Key ring with default key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} was loaded during application startup.
+2026-09-09 14:55:00.303 +07:00 [DBG] Middleware loaded
+2026-09-09 14:55:00.303 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16491 B).
+2026-09-09 14:55:00.304 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-09-09 14:55:00.352 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-09-09 14:55:00.354 +07:00 [DBG] Loaded hosting startup assembly API
+2026-09-09 14:55:00.354 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-09-09 14:55:00.354 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-09-09 14:55:00.354 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-09-09 14:55:00.380 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/index.html - null null
+2026-09-09 14:55:00.405 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-09 14:55:00.405 +07:00 [INF] Hosting environment: Development
+2026-09-09 14:55:00.405 +07:00 [INF] Content root path: D:\C#\BanOto\API
+2026-09-09 14:55:00.405 +07:00 [DBG] Hosting started
+2026-09-09 14:55:00.463 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-09-09 14:55:00.496 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-09-09 14:55:00.498 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-09-09 14:55:00.519 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-09-09 14:55:00.520 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-09-09 14:55:00.526 +07:00 [DBG] Connection ID "18374686501951766533" disconnecting.
+2026-09-09 14:55:00.527 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-09 14:55:00.527 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/index.html - 200 null text/html;charset=utf-8 150.3879ms
+2026-09-09 14:55:00.529 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_vs/browserLink - null null
+2026-09-09 14:55:00.534 +07:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-09-09 14:55:00.535 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 7.9554ms
+2026-09-09 14:55:00.571 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.0919ms
+2026-09-09 14:55:00.574 +07:00 [DBG] Connection ID "18230571309580943362" disconnecting.
+2026-09-09 14:55:00.666 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - null null
+2026-09-09 14:55:00.679 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.8415ms
+2026-09-09 14:55:05.251 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44334/api/Customer/create-item - application/json 65
+2026-09-09 14:55:05.254 +07:00 [DBG] POST requests are not supported
+2026-09-09 14:55:05.293 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Customer/create-item'
+2026-09-09 14:55:05.298 +07:00 [DBG] Endpoint 'API.Controllers.CustomerController.CreateItem (API)' with route pattern 'api/Customer/create-item' is valid for the request path '/api/Customer/create-item'
+2026-09-09 14:55:05.299 +07:00 [DBG] Request matched endpoint 'API.Controllers.CustomerController.CreateItem (API)'
+2026-09-09 14:55:05.302 +07:00 [DBG] The request has an origin header: 'https://localhost:44334'.
+2026-09-09 14:55:05.302 +07:00 [INF] CORS policy execution successful.
+2026-09-09 14:55:05.388 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-09-09 14:55:05.391 +07:00 [INF] Executing endpoint 'API.Controllers.CustomerController.CreateItem (API)'
+2026-09-09 14:55:05.423 +07:00 [INF] Route matched with {action = "CreateItem", controller = "Customer"}. Executing controller action with signature Model.CustomerModel CreateItem(Model.CustomerModel) on controller API.Controllers.CustomerController (API).
+2026-09-09 14:55:05.426 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-09-09 14:55:05.426 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-09-09 14:55:05.427 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-09-09 14:55:05.428 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-09-09 14:55:05.428 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-09-09 14:55:05.431 +07:00 [DBG] Executing controller factory for controller API.Controllers.CustomerController (API)
+2026-09-09 14:55:05.432 +07:00 [DBG] Executed controller factory for controller API.Controllers.CustomerController (API)
+2026-09-09 14:55:05.438 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.CustomerModel' ...
+2026-09-09 14:55:05.442 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.CustomerModel' using the name '' in request data ...
+2026-09-09 14:55:05.443 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-09-09 14:55:05.463 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'Model.CustomerModel'
+2026-09-09 14:55:05.464 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.CustomerModel'.
+2026-09-09 14:55:05.465 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.CustomerModel'.
+2026-09-09 14:55:05.465 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Model.CustomerModel' ...
+2026-09-09 14:55:05.475 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Model.CustomerModel'.
+2026-09-09 14:55:05.772 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-09-09 14:55:05.776 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2026-09-09 14:55:05.777 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-09-09 14:55:05.777 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-09-09 14:55:05.778 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-09-09 14:55:05.779 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-09-09 14:55:05.779 +07:00 [INF] Executing ObjectResult, writing value of type 'Model.CustomerModel'.
+2026-09-09 14:55:05.789 +07:00 [INF] Executed action API.Controllers.CustomerController.CreateItem (API) in 356.0664ms
+2026-09-09 14:55:05.790 +07:00 [INF] Executed endpoint 'API.Controllers.CustomerController.CreateItem (API)'
+2026-09-09 14:55:05.790 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44334/api/Customer/create-item - 200 null application/json; charset=utf-8 539.2165ms
+2026-09-09 14:55:05.791 +07:00 [DBG] Connection ID "18302628912208805889" disconnecting.
+2026-09-09 14:55:33.528 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44334/api/HoaDon/create-hoa-don - application/json 270
+2026-09-09 14:55:33.529 +07:00 [DBG] POST requests are not supported
+2026-09-09 14:55:33.532 +07:00 [DBG] 1 candidate(s) found for the request path '/api/HoaDon/create-hoa-don'
+2026-09-09 14:55:33.533 +07:00 [DBG] Endpoint 'API.Controllers.HoaDonController.CreateItem (API)' with route pattern 'api/HoaDon/create-hoa-don' is valid for the request path '/api/HoaDon/create-hoa-don'
+2026-09-09 14:55:33.534 +07:00 [DBG] Request matched endpoint 'API.Controllers.HoaDonController.CreateItem (API)'
+2026-09-09 14:55:33.538 +07:00 [DBG] The request has an origin header: 'https://localhost:44334'.
+2026-09-09 14:55:33.538 +07:00 [INF] CORS policy execution successful.
+2026-09-09 14:55:33.542 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-09-09 14:55:33.544 +07:00 [INF] Executing endpoint 'API.Controllers.HoaDonController.CreateItem (API)'
+2026-09-09 14:55:33.554 +07:00 [INF] Route matched with {action = "CreateItem", controller = "HoaDon"}. Executing controller action with signature Model.HoaDonModel CreateItem(Model.HoaDonModel) on controller API.Controllers.HoaDonController (API).
+2026-09-09 14:55:33.554 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-09-09 14:55:33.554 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-09-09 14:55:33.554 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-09-09 14:55:33.555 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-09-09 14:55:33.555 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-09-09 14:55:33.555 +07:00 [DBG] Executing controller factory for controller API.Controllers.HoaDonController (API)
+2026-09-09 14:55:33.556 +07:00 [DBG] Executed controller factory for controller API.Controllers.HoaDonController (API)
+2026-09-09 14:55:33.557 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.HoaDonModel' ...
+2026-09-09 14:55:33.558 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.HoaDonModel' using the name '' in request data ...
+2026-09-09 14:55:33.558 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-09-09 14:55:33.567 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'Model.HoaDonModel'
+2026-09-09 14:55:33.567 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.HoaDonModel'.
+2026-09-09 14:55:33.567 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.HoaDonModel'.
+2026-09-09 14:55:33.568 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Model.HoaDonModel' ...
+2026-09-09 14:55:33.572 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Model.HoaDonModel'.
+2026-09-09 15:06:21.531 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-09-09 15:06:21.595 +07:00 [DBG] Hosting starting
+2026-09-09 15:06:21.608 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-09 15:06:21.613 +07:00 [DBG] Reading data from file 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys\key-440e4f70-7858-4e27-9533-e63e9d7ad2ec.xml'.
+2026-09-09 15:06:21.620 +07:00 [DBG] Found key {440e4f70-7858-4e27-9533-e63e9d7ad2ec}.
+2026-09-09 15:06:21.626 +07:00 [DBG] Considering key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} with expiration date 2026-12-07 11:29:14Z as default key.
+2026-09-09 15:06:21.628 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 15:06:21.629 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-09-09 15:06:21.630 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 15:06:21.632 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-09-09 15:06:21.633 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-09-09 15:06:21.633 +07:00 [DBG] Using key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} as the default key.
+2026-09-09 15:06:21.634 +07:00 [DBG] Key ring with default key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} was loaded during application startup.
+2026-09-09 15:06:21.637 +07:00 [DBG] Middleware loaded
+2026-09-09 15:06:21.638 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16491 B).
+2026-09-09 15:06:21.639 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-09-09 15:06:21.685 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-09-09 15:06:21.686 +07:00 [DBG] Loaded hosting startup assembly API
+2026-09-09 15:06:21.686 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-09-09 15:06:21.686 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-09-09 15:06:21.686 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-09-09 15:06:21.710 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/index.html - null null
+2026-09-09 15:06:21.733 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-09 15:06:21.733 +07:00 [INF] Hosting environment: Development
+2026-09-09 15:06:21.733 +07:00 [INF] Content root path: D:\C#\BanOto\API
+2026-09-09 15:06:21.733 +07:00 [DBG] Hosting started
+2026-09-09 15:06:21.805 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-09-09 15:06:21.843 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-09-09 15:06:21.845 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-09-09 15:06:21.866 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-09-09 15:06:21.866 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-09-09 15:06:21.868 +07:00 [DBG] Connection ID "18374686484771897349" disconnecting.
+2026-09-09 15:06:21.873 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/index.html - 200 null text/html;charset=utf-8 164.7133ms
+2026-09-09 15:06:21.883 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_vs/browserLink - null null
+2026-09-09 15:06:21.883 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-09 15:06:21.885 +07:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-09-09 15:06:21.886 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 2.7967ms
+2026-09-09 15:06:21.886 +07:00 [DBG] Connection ID "18374686497656799245" disconnecting.
+2026-09-09 15:06:21.915 +07:00 [DBG] Connection ID "18302628899323904003" disconnecting.
+2026-09-09 15:06:21.915 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.6444ms
+2026-09-09 15:06:22.028 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - null null
+2026-09-09 15:06:22.038 +07:00 [DBG] Connection ID "18302628899323904005" disconnecting.
+2026-09-09 15:06:22.038 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.6267ms
+2026-09-09 15:06:27.768 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44334/api/Users/login - application/json 50
+2026-09-09 15:06:27.773 +07:00 [DBG] POST requests are not supported
+2026-09-09 15:06:27.828 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2026-09-09 15:06:27.835 +07:00 [DBG] Endpoint 'API.Controllers.UsersController.Login (API)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2026-09-09 15:06:27.839 +07:00 [DBG] Request matched endpoint 'API.Controllers.UsersController.Login (API)'
+2026-09-09 15:06:27.842 +07:00 [DBG] The request has an origin header: 'https://localhost:44334'.
+2026-09-09 15:06:27.843 +07:00 [INF] CORS policy execution successful.
+2026-09-09 15:06:27.929 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-09-09 15:06:27.937 +07:00 [INF] Executing endpoint 'API.Controllers.UsersController.Login (API)'
+2026-09-09 15:06:27.981 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Model.AuthenticateModel) on controller API.Controllers.UsersController (API).
+2026-09-09 15:06:27.983 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-09-09 15:06:27.984 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-09-09 15:06:27.984 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-09-09 15:06:27.985 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-09-09 15:06:27.985 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-09-09 15:06:27.988 +07:00 [DBG] Executing controller factory for controller API.Controllers.UsersController (API)
+2026-09-09 15:06:27.990 +07:00 [DBG] Executed controller factory for controller API.Controllers.UsersController (API)
+2026-09-09 15:06:27.998 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.AuthenticateModel' ...
+2026-09-09 15:06:28.002 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.AuthenticateModel' using the name '' in request data ...
+2026-09-09 15:06:28.004 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-09-09 15:06:28.026 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'Model.AuthenticateModel'
+2026-09-09 15:06:28.027 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.AuthenticateModel'.
+2026-09-09 15:06:28.027 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.AuthenticateModel'.
+2026-09-09 15:06:28.027 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Model.AuthenticateModel' ...
+2026-09-09 15:06:28.043 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Model.AuthenticateModel'.
+2026-09-09 15:06:28.375 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-09-09 15:06:28.379 +07:00 [DBG] No information found on request to perform content negotiation.
+2026-09-09 15:06:28.379 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-09-09 15:06:28.379 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-09-09 15:06:28.381 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-09-09 15:06:28.382 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-09 15:06:28.397 +07:00 [INF] Executed action API.Controllers.UsersController.Login (API) in 405.3742ms
+2026-09-09 15:06:28.398 +07:00 [INF] Executed endpoint 'API.Controllers.UsersController.Login (API)'
+2026-09-09 15:06:28.399 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44334/api/Users/login - 400 null application/json; charset=utf-8 630.2475ms
+2026-09-09 15:06:28.399 +07:00 [DBG] Connection ID "18230571300991008788" disconnecting.
+2026-09-09 15:07:45.877 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44334/api/Users/delete-user - application/json 95
+2026-09-09 15:07:45.878 +07:00 [DBG] POST requests are not supported
+2026-09-09 15:07:45.883 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/delete-user'
+2026-09-09 15:07:45.884 +07:00 [DBG] Endpoint 'API.Controllers.UsersController.DeleteUser (API)' with route pattern 'api/Users/delete-user' is valid for the request path '/api/Users/delete-user'
+2026-09-09 15:07:45.884 +07:00 [DBG] Request matched endpoint 'API.Controllers.UsersController.DeleteUser (API)'
+2026-09-09 15:07:45.886 +07:00 [DBG] The request has an origin header: 'https://localhost:44334'.
+2026-09-09 15:07:45.886 +07:00 [INF] CORS policy execution successful.
+2026-09-09 15:07:45.890 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-09-09 15:07:45.898 +07:00 [DBG] Policy authentication schemes  did not succeed
+2026-09-09 15:07:45.911 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-09-09 15:07:45.919 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-09-09 15:07:45.921 +07:00 [DBG] Connection ID "17798225728173506572" disconnecting.
+2026-09-09 15:07:45.921 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44334/api/Users/delete-user - 401 null null 45.0749ms
+2026-09-09 15:07:57.353 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44334/api/Users/upload - multipart/form-data; boundary=----WebKitFormBoundary3ATfipieAAUemMFr 135
+2026-09-09 15:07:57.354 +07:00 [DBG] POST requests are not supported
+2026-09-09 15:07:57.354 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/upload'
+2026-09-09 15:07:57.354 +07:00 [DBG] Endpoint 'API.Controllers.UsersController.Upload (API)' with route pattern 'api/Users/upload' is valid for the request path '/api/Users/upload'
+2026-09-09 15:07:57.354 +07:00 [DBG] Request matched endpoint 'API.Controllers.UsersController.Upload (API)'
+2026-09-09 15:07:57.355 +07:00 [DBG] The maximum request body size has been disabled.
+2026-09-09 15:07:57.356 +07:00 [DBG] The request has an origin header: 'https://localhost:44334'.
+2026-09-09 15:07:57.356 +07:00 [INF] CORS policy execution successful.
+2026-09-09 15:07:57.358 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-09-09 15:07:57.360 +07:00 [DBG] Policy authentication schemes  did not succeed
+2026-09-09 15:07:57.361 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-09-09 15:07:57.362 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-09-09 15:07:57.364 +07:00 [DBG] Connection ID "18230571300991008790" disconnecting.
+2026-09-09 15:07:57.364 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44334/api/Users/upload - 401 null null 11.853ms
+2026-09-09 15:08:26.812 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44334/api/Item/create-item - application/json 124
+2026-09-09 15:08:26.838 +07:00 [DBG] POST requests are not supported
+2026-09-09 15:08:26.840 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Item/create-item'
+2026-09-09 15:08:26.841 +07:00 [DBG] Endpoint 'API.Controllers.ItemController.CreateItem (API)' with route pattern 'api/Item/create-item' is valid for the request path '/api/Item/create-item'
+2026-09-09 15:08:26.841 +07:00 [DBG] Request matched endpoint 'API.Controllers.ItemController.CreateItem (API)'
+2026-09-09 15:08:26.841 +07:00 [DBG] The request has an origin header: 'https://localhost:44334'.
+2026-09-09 15:08:26.841 +07:00 [INF] CORS policy execution successful.
+2026-09-09 15:08:26.841 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-09-09 15:08:26.843 +07:00 [INF] Executing endpoint 'API.Controllers.ItemController.CreateItem (API)'
+2026-09-09 15:08:26.850 +07:00 [INF] Route matched with {action = "CreateItem", controller = "Item"}. Executing controller action with signature Model.ItemModel CreateItem(Model.ItemModel) on controller API.Controllers.ItemController (API).
+2026-09-09 15:08:26.850 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-09-09 15:08:26.850 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-09-09 15:08:26.851 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-09-09 15:08:26.851 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-09-09 15:08:26.851 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-09-09 15:08:26.851 +07:00 [DBG] Executing controller factory for controller API.Controllers.ItemController (API)
+2026-09-09 15:08:26.855 +07:00 [DBG] Executed controller factory for controller API.Controllers.ItemController (API)
+2026-09-09 15:08:26.856 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.ItemModel' ...
+2026-09-09 15:08:26.857 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.ItemModel' using the name '' in request data ...
+2026-09-09 15:08:26.857 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-09-09 15:08:26.872 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'Model.ItemModel'
+2026-09-09 15:08:26.872 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.ItemModel'.
+2026-09-09 15:08:26.872 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.ItemModel'.
+2026-09-09 15:08:26.872 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Model.ItemModel' ...
+2026-09-09 15:08:26.877 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Model.ItemModel'.
+2026-09-09 15:11:04.042 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-09-09 15:11:04.125 +07:00 [DBG] Hosting starting
+2026-09-09 15:11:04.150 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-09 15:11:04.167 +07:00 [DBG] Reading data from file 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys\key-440e4f70-7858-4e27-9533-e63e9d7ad2ec.xml'.
+2026-09-09 15:11:04.183 +07:00 [DBG] Found key {440e4f70-7858-4e27-9533-e63e9d7ad2ec}.
+2026-09-09 15:11:04.201 +07:00 [DBG] Considering key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} with expiration date 2026-12-07 11:29:14Z as default key.
+2026-09-09 15:11:04.203 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 15:11:04.205 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-09-09 15:11:04.208 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-09-09 15:11:04.218 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-09-09 15:11:04.219 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-09-09 15:11:04.221 +07:00 [DBG] Using key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} as the default key.
+2026-09-09 15:11:04.222 +07:00 [DBG] Key ring with default key {440e4f70-7858-4e27-9533-e63e9d7ad2ec} was loaded during application startup.
+2026-09-09 15:11:04.238 +07:00 [DBG] Middleware loaded
+2026-09-09 15:11:04.239 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16491 B).
+2026-09-09 15:11:04.240 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-09-09 15:11:04.415 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-09-09 15:11:04.417 +07:00 [DBG] Loaded hosting startup assembly API
+2026-09-09 15:11:04.417 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-09-09 15:11:04.417 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-09-09 15:11:04.417 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-09-09 15:11:04.458 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/index.html - null null
+2026-09-09 15:11:04.486 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-09 15:11:04.486 +07:00 [INF] Hosting environment: Development
+2026-09-09 15:11:04.486 +07:00 [INF] Content root path: D:\C#\BanOto\API
+2026-09-09 15:11:04.486 +07:00 [DBG] Hosting started
+2026-09-09 15:11:04.552 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-09-09 15:11:04.601 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-09-09 15:11:04.602 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-09-09 15:11:04.624 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-09-09 15:11:04.624 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-09-09 15:11:04.627 +07:00 [DBG] Connection ID "18302628899323904009" disconnecting.
+2026-09-09 15:11:04.628 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/index.html - 200 null text/html;charset=utf-8 173.5959ms
+2026-09-09 15:11:04.636 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_vs/browserLink - null null
+2026-09-09 15:11:04.638 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-09 15:11:04.652 +07:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-09-09 15:11:04.653 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 14.4169ms
+2026-09-09 15:11:04.673 +07:00 [DBG] Connection ID "18158513706953080841" disconnecting.
+2026-09-09 15:11:04.677 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.5193ms
+2026-09-09 15:11:04.707 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - null null
+2026-09-09 15:11:04.721 +07:00 [DBG] Connection ID "18374686497656799247" disconnecting.
+2026-09-09 15:11:04.721 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.7595ms
+2026-09-09 15:11:10.367 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44334/api/Customer/create-item - application/json 65
+2026-09-09 15:11:10.370 +07:00 [DBG] POST requests are not supported
+2026-09-09 15:11:10.419 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Customer/create-item'
+2026-09-09 15:11:10.423 +07:00 [DBG] Endpoint 'API.Controllers.CustomerController.CreateItem (API)' with route pattern 'api/Customer/create-item' is valid for the request path '/api/Customer/create-item'
+2026-09-09 15:11:10.425 +07:00 [DBG] Request matched endpoint 'API.Controllers.CustomerController.CreateItem (API)'
+2026-09-09 15:11:10.428 +07:00 [DBG] The request has an origin header: 'https://localhost:44334'.
+2026-09-09 15:11:10.428 +07:00 [INF] CORS policy execution successful.
+2026-09-09 15:11:10.524 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-09-09 15:11:10.527 +07:00 [INF] Executing endpoint 'API.Controllers.CustomerController.CreateItem (API)'
+2026-09-09 15:11:10.569 +07:00 [INF] Route matched with {action = "CreateItem", controller = "Customer"}. Executing controller action with signature Model.CustomerModel CreateItem(Model.CustomerModel) on controller API.Controllers.CustomerController (API).
+2026-09-09 15:11:10.573 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-09-09 15:11:10.574 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-09-09 15:11:10.574 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-09-09 15:11:10.575 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-09-09 15:11:10.576 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-09-09 15:11:10.579 +07:00 [DBG] Executing controller factory for controller API.Controllers.CustomerController (API)
+2026-09-09 15:11:10.580 +07:00 [DBG] Executed controller factory for controller API.Controllers.CustomerController (API)
+2026-09-09 15:11:10.588 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.CustomerModel' ...
+2026-09-09 15:11:10.593 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Model.CustomerModel' using the name '' in request data ...
+2026-09-09 15:11:10.595 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-09-09 15:11:10.616 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'Model.CustomerModel'
+2026-09-09 15:11:10.617 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.CustomerModel'.
+2026-09-09 15:11:10.617 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Model.CustomerModel'.
+2026-09-09 15:11:10.618 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Model.CustomerModel' ...
+2026-09-09 15:11:10.629 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Model.CustomerModel'.
